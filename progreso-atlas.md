@@ -17,3 +17,7 @@
 - Aprendí: bucles for (con range()) y while (con condición)
 - Entendí el error TypeError y cómo leer un traceback
 - Próximo paso: listas
+## Sesión 4 - 12 de septiembre
+- Aprendí: listas (crear, acceder por índice, len(), append(), recorrer con for)
+- Aprendí: diccionarios (crear, acceder por clave, añadir claves, recorrer con for)
+- Próximo paso: funciones (def)
