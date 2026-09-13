@@ -21,3 +21,7 @@
 - Aprendí: listas (crear, acceder por índice, len(), append(), recorrer con for)
 - Aprendí: diccionarios (crear, acceder por clave, añadir claves, recorrer con for)
 - Próximo paso: funciones (def)
+## Sesión 5 - 13 de septiembre
+- Aprendí: funciones (def, parámetros, return vs print)
+- Aprendí: manejo de errores (try/except, ValueError)
+- Próximo paso: archivos (leer/escribir), luego Módulo 1 (APIs/HTTP) y JSON
