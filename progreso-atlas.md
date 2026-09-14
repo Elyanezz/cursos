@@ -25,3 +25,7 @@
 - Aprendí: funciones (def, parámetros, return vs print)
 - Aprendí: manejo de errores (try/except, ValueError)
 - Próximo paso: archivos (leer/escribir), luego Módulo 1 (APIs/HTTP) y JSON
+## Sesión 6 - 14 de septiembre
+- Aprendí: archivos (open, write, read, modos "w"/"a"/"r", with)
+- Completados los fundamentos "puros" de Python
+- Próximo paso: Módulo 1 (APIs/HTTP) y JSON
