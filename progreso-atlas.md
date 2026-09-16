@@ -29,3 +29,7 @@
 - Aprendí: archivos (open, write, read, modos "w"/"a"/"r", with)
 - Completados los fundamentos "puros" de Python
 - Próximo paso: Módulo 1 (APIs/HTTP) y JSON
+## Sesión 7 - 16 de septiembre
+- Aprendi APIs/HTTP/JSON
+- Completé: requests (.get(), .status_code, .json())
+- Próximo paso: POST, query params con params, autenticación con API keys en headers
