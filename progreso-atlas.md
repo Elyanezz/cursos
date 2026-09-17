@@ -33,3 +33,8 @@
 - Aprendi APIs/HTTP/JSON
 - Completé: requests (.get(), .status_code, .json())
 - Próximo paso: POST, query params con params, autenticación con API keys en headers
+## Sesión 8 — 17 de septiembre
+- Completado: Módulo 1 (APIs/HTTP/JSON) — API, HTTP (verbos y códigos de estado), 
+  JSON, peticiones reales con `requests` (.get(), .status_code, .json()), 
+  extracción de datos anidados, query params, POST, API keys/headers
+- Próximo paso: retomar Python puro (Fase 1)
