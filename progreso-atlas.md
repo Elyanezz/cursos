@@ -38,3 +38,21 @@
   JSON, peticiones reales con `requests` (.get(), .status_code, .json()), 
   extracción de datos anidados, query params, POST, API keys/headers
 - Próximo paso: retomar Python puro (Fase 1)
+## Sesión 9 — 18 de septiembre
+- Empecé Módulo 2: n8n
+- Instalé Docker Desktop para poder usar n8n
+## Sesión 10 — 19 de septiembre
+- Instalé n8n
+- Aprendí triggers y actions
+- Cree mi primer trigger en n8n
+## Sesión 11 — 20 de septiembre
+- Retomé triggers y actions (repaso desde cero)
+- Aprendí a crear un workflow con Manual Trigger + Edit Fields (Set)
+- Aprendí que los datos en n8n viajan como listas de JSON (items)
+- Aprendí a referenciar datos de un nodo anterior con expresiones ({{ $json.campo }})
+- Aprendí el nodo HTTP Request para conectar con una API real
+- Aprendí a acceder a JSON anidado (address.city, company.name)
+- Aprendí el nodo IF (condición, dos salidas true/false)
+- Mini-proyecto: "Verificador de empresa por usuario" (Manual Trigger → HTTP Request → IF → Edit Fields), subido a Proyectos/n8n-verificador-empresa
+- Completado Módulo 2 (n8n)
+- Próximo paso: IA/prompting con salidas estructuradas
