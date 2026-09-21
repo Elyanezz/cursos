@@ -56,3 +56,12 @@
 - Mini-proyecto: "Verificador de empresa por usuario" (Manual Trigger → HTTP Request → IF → Edit Fields), subido a Proyectos/n8n-verificador-empresa
 - Completado Módulo 2 (n8n)
 - Próximo paso: IA/prompting con salidas estructuradas
+## Sesión 12 — 21 de septiembre
+- Retomé el concepto de salidas estructuradas (por qué una IA debe responder en JSON, no en texto libre)
+- Configuré Google Gemini API como alternativa gratuita a Anthropic (de pago)
+- Setup: .env, .gitignore, python-dotenv, google-genai
+- Depuré varios errores reales: módulo no encontrado (pip de versión incorrecta), modelo deprecado, 503 por saturación del servicio
+- Hice mi primera llamada real a la API con salida en texto libre
+- Aprendí a forzar salida JSON estructurada con Pydantic (BaseModel, response_schema, response_mime_type)
+- Proyecto: Proyectos/ia-prompting
+- Próximo paso: seguir profundizando en salidas estructuradas (esquemas más complejos, validación de datos)
