@@ -65,3 +65,8 @@
 - Aprendí a forzar salida JSON estructurada con Pydantic (BaseModel, response_schema, response_mime_type)
 - Proyecto: Proyectos/ia-prompting
 - Próximo paso: seguir profundizando en salidas estructuradas (esquemas más complejos, validación de datos)
+## Sesión 13 — 22 de septiembre
+- Amplié salidas estructuradas: listas dentro del schema (List[str]) y valores limitados (Literal)
+- Aprendí la diferencia entre response.text (string crudo) y response.parsed (objeto validado contra el schema)
+- Empecé mini-proyecto "Analizador de sentimiento de reseñas" (pendiente de terminar)
+- Próximo paso: terminar el mini-proyecto de análisis de sentimiento
