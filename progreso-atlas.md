@@ -70,3 +70,9 @@
 - Aprendí la diferencia entre response.text (string crudo) y response.parsed (objeto validado contra el schema)
 - Empecé mini-proyecto "Analizador de sentimiento de reseñas" (pendiente de terminar)
 - Próximo paso: terminar el mini-proyecto de análisis de sentimiento
+## Sesión 14 — 23 de septiembre
+- Terminé el mini-proyecto "Analizador de sentimiento de reseñas" (schema Reseñas: sentimiento, resumen, requiere_atencion + bucle for)
+- Fase 2 (n8n + IA/prompting con salidas estructuradas) oficialmente completa
+- Repasé el criterio de fases: seguir avanzando por fases propias, no por el orden 0-16 del documento, y solo lo esencial dentro de cada fase
+- Decidido: antes de Fase 3, construir un proyecto de consolidación que junte n8n + Python + IA de forma más realista (ej. reseñas → clasificación IA → alerta), para afianzar Fases 1-2 y dejar que sea el propio proyecto quien pida SQL/FastAPI/RAG cuando haga falta, no al revés
+- Próximo paso: definir y empezar el proyecto de consolidación
