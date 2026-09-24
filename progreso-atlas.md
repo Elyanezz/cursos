@@ -76,3 +76,6 @@
 - Repasé el criterio de fases: seguir avanzando por fases propias, no por el orden 0-16 del documento, y solo lo esencial dentro de cada fase
 - Decidido: antes de Fase 3, construir un proyecto de consolidación que junte n8n + Python + IA de forma más realista (ej. reseñas → clasificación IA → alerta), para afianzar Fases 1-2 y dejar que sea el propio proyecto quien pida SQL/FastAPI/RAG cuando haga falta, no al revés
 - Próximo paso: definir y empezar el proyecto de consolidación
+## Sesión 15 — 24 de septiembre
+- Comienzo de mini proyecto en n8n + IA prompting
+- Faltan consolidar partes del proyecto en el workflow
