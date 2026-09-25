@@ -79,3 +79,10 @@
 ## Sesión 15 — 24 de septiembre
 - Comienzo de mini proyecto en n8n + IA prompting
 - Faltan consolidar partes del proyecto en el workflow
+## Sesión 16 — 24 de septiembre
+- Definí y construí el proyecto de consolidación: "Gestor de reseñas con alertas automáticas"
+- Workflow completo en n8n: Manual Trigger → Edit Fields (reseñas) → AI Agent + Google Gemini Chat Model → Structured Output Parser (JSON forzado) → IF → acción simulada según la rama
+- Aprendí a forzar JSON en el nodo AI Agent de n8n (Has Output Parser + Structured Output Parser), sin necesidad de Python/FastAPI
+- Decisión consciente de no adelantar Fase 3 (nada de conexiones reales tipo Gmail/Slack, solo simulación de la alerta)
+- Proyecto subido a Proyectos/gestor-resenas-n8n
+- Próximo paso: sin definir — Fase 3 (SQL, FastAPI, RAG, agentes) queda en espera hasta que un proyecto real la requiera
