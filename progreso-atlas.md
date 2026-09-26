@@ -86,3 +86,10 @@
 - Decisión consciente de no adelantar Fase 3 (nada de conexiones reales tipo Gmail/Slack, solo simulación de la alerta)
 - Proyecto subido a Proyectos/gestor-resenas-n8n
 - Próximo paso: sin definir — Fase 3 (SQL, FastAPI, RAG, agentes) queda en espera hasta que un proyecto real la requiera
+## Sesión 17 — 26 de septiembre
+- Empecé FastAPI como excepción consciente (adelantado de Fase 3, sin esperar proyecto real, por conectar directo con la necesidad real de unir Python + n8n)
+- Aprendí el concepto de decorador (@app.get, @app.post) como trigger→action, igual que en n8n
+- Monté un servidor básico con uvicorn (ruta GET funcionando en localhost:8000)
+- Aprendí a recibir y validar datos con POST usando Pydantic (endpoint /analizar)
+- Probé el endpoint desde /docs (documentación automática de FastAPI)
+- Próximo paso: conectar /analizar con la lógica real de Gemini, y después con n8n vía HTTP Request
