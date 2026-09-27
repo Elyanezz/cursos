@@ -93,3 +93,8 @@
 - Aprendí a recibir y validar datos con POST usando Pydantic (endpoint /analizar)
 - Probé el endpoint desde /docs (documentación automática de FastAPI)
 - Próximo paso: conectar /analizar con la lógica real de Gemini, y después con n8n vía HTTP Request
+## Sesión 18 — 27 de septiembre
+- Conecté el endpoint /analizar de FastAPI con la lógica real de Gemini
+- Reforcé conceptos clave: return termina la función (código después nunca se ejecuta), no reutilizar el mismo nombre de variable para cosas distintas, dos schemas separados (uno para lo que entra, otro para lo que la IA genera)
+- Endpoint funcionando de punta a punta: texto → análisis con sentimiento/resumen/requiere_atencion
+- Próximo paso: conectar /analizar desde n8n con un nodo HTTP Request (cerrar el círculo Python↔n8n)
