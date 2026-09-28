@@ -98,3 +98,9 @@
 - Reforcé conceptos clave: return termina la función (código después nunca se ejecuta), no reutilizar el mismo nombre de variable para cosas distintas, dos schemas separados (uno para lo que entra, otro para lo que la IA genera)
 - Endpoint funcionando de punta a punta: texto → análisis con sentimiento/resumen/requiere_atencion
 - Próximo paso: conectar /analizar desde n8n con un nodo HTTP Request (cerrar el círculo Python↔n8n)
+## Sesión 19 — 28 de septiembre
+- Conecté n8n con mi propio servidor FastAPI: nodo HTTP Request (POST) a http://host.docker.internal:8000/analizar
+- Aprendí que desde Docker, localhost no apunta a mi PC — hay que usar host.docker.internal
+- Depuré un IF que siempre se iba a true: el operador estaba en "exists" en vez de "is true"
+- Círculo completo funcionando: n8n → mi servidor Python → Gemini → IF reaccionando bien a true/false
+- Próximo paso: sin definir
