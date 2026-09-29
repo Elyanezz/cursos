@@ -104,3 +104,9 @@
 - Depuré un IF que siempre se iba a true: el operador estaba en "exists" en vez de "is true"
 - Círculo completo funcionando: n8n → mi servidor Python → Gemini → IF reaccionando bien a true/false
 - Próximo paso: sin definir
+## Sesión 20 — 29 de septiembre
+- Arrancado nuevo proyecto de consolidación: "Sistema de triage automático de tickets de soporte" (FastAPI + Gemini + n8n + histórico de tickets)
+- Creado dentro del repo existente ia-prompting, en archivo separado del de reseñas
+- Diseñé el schema Ticket (categoria, sentimiento, urgencia, resumen) y TicketEntrada (solo texto)
+- Endpoint /tickets funcionando de punta a punta contra Gemini, probado desde /docs con un caso real
+- Próximo paso: guardar cada ticket procesado en un histórico (archivo CSV o JSON)
