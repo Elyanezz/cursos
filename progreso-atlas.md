@@ -110,3 +110,10 @@
 - Diseñé el schema Ticket (categoria, sentimiento, urgencia, resumen) y TicketEntrada (solo texto)
 - Endpoint /tickets funcionando de punta a punta contra Gemini, probado desde /docs con un caso real
 - Próximo paso: guardar cada ticket procesado en un histórico (archivo CSV o JSON)
+## Sesión 21 — 30 de septiembre
+- Aprendí a escribir/añadir archivos con open() (modos "r"/"w"/"a") y with como context manager
+- Aprendí el formato JSON Lines (JSONL) para históricos: una línea = un JSON completo
+- Usé model_dump_json() de Pydantic para convertir un objeto Ticket a JSON
+- Endpoint /tickets ahora guarda cada ticket analizado en tickets_historial.jsonl antes del return
+- Cacé y arreglé un bug real de encoding (tildes/ñ corrompidas) añadiendo encoding="utf-8" a open()
+- Próximo paso: conectar /tickets con n8n (HTTP Request + IF de urgencia) para cerrar el proyecto
