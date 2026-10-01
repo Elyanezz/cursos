@@ -117,3 +117,9 @@
 - Endpoint /tickets ahora guarda cada ticket analizado en tickets_historial.jsonl antes del return
 - Cacé y arreglé un bug real de encoding (tildes/ñ corrompidas) añadiendo encoding="utf-8" a open()
 - Próximo paso: conectar /tickets con n8n (HTTP Request + IF de urgencia) para cerrar el proyecto
+## Sesión 22 — 1 de octubre
+- Conecté el endpoint /tickets con n8n mediante un nodo HTTP Request
+- Configuré n8n para enviar los tickets al endpoint y recibir la respuesta estructurada de Gemini
+- Añadí un nodo IF para comprobar automáticamente la urgencia del ticket
+- Configuré la condición para detectar cuándo urgencia == "alta" y separar el flujo según el resultado
+- Exporté el workflow de n8n en formato JSON para guardarlo dentro del proyecto y versionarlo con Git
