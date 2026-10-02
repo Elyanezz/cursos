@@ -123,3 +123,11 @@
 - Añadí un nodo IF para comprobar automáticamente la urgencia del ticket
 - Configuré la condición para detectar cuándo urgencia == "alta" y separar el flujo según el resultado
 - Exporté el workflow de n8n en formato JSON para guardarlo dentro del proyecto y versionarlo con Git
+## Sesión 23 — 2 de octubre
+- Conecté el Webhook de n8n con mi endpoint /tickets, sustituyendo el Manual Trigger por un disparador real que acepta datos dinámicos
+- Usé curl desde Git Bash para simular peticiones externas, con -d @archivo.json en vez de texto directo en el comando (evita un bug de encoding de curl en Windows)
+- Entendí que $json.body.texto es necesario (no $json.texto) porque los datos de un Webhook llegan anidados dentro de "body"
+- Aprendí que una terminal se queda "ocupada" mientras un servidor corre (uvicorn), y hace falta una segunda terminal para ejecutar otros comandos en paralelo
+- Entendí el concepto de Retry on Fail en n8n para manejar fallos temporales de APIs externas (ej: 503 de Gemini), y la importancia de dejar tiempo de espera real entre reintentos
+- Entendí (sin implementarlo aún) el patrón "Continue On Fail" + rama de error para no perder tickets si Gemini falla definitivamente, aplazado como siguiente paso
+- Entendí el hueco que llena el Webhook en una automatización real: formularios, chatbots o emails reenviando datos automáticamente, aplazado a Fase 4
