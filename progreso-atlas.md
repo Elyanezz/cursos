@@ -131,3 +131,10 @@
 - Entendí el concepto de Retry on Fail en n8n para manejar fallos temporales de APIs externas (ej: 503 de Gemini), y la importancia de dejar tiempo de espera real entre reintentos
 - Entendí (sin implementarlo aún) el patrón "Continue On Fail" + rama de error para no perder tickets si Gemini falla definitivamente, aplazado como siguiente paso
 - Entendí el hueco que llena el Webhook en una automatización real: formularios, chatbots o emails reenviando datos automáticamente, aplazado a Fase 4
+## Sesión 24 — 3 de octubre
+- Activé "Continue On Fail" en el HTTP Request de n8n, generando una salida separada de error
+- Creé el endpoint /tickets/pendientes en FastAPI: guarda el texto crudo del ticket sin pasar por Gemini
+- Conecté la rama de error del HTTP Request a un segundo HTTP Request apuntando a ese endpoint
+- Probé el patrón completo forzando un fallo real (modelo inválido temporal) y confirmé que el ticket se guarda como pendiente en vez de perderse
+- Depuré un bug: me faltaba el "=" al inicio del jsonBody para que n8n evaluara la expresión {{ $json.body.texto }} en vez de mandarla como texto literal
+- Proyecto de triage de tickets ahora robusto ante fallos de la API externa, no solo en el camino feliz
