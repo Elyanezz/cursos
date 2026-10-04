@@ -138,3 +138,8 @@
 - Probé el patrón completo forzando un fallo real (modelo inválido temporal) y confirmé que el ticket se guarda como pendiente en vez de perderse
 - Depuré un bug: me faltaba el "=" al inicio del jsonBody para que n8n evaluara la expresión {{ $json.body.texto }} en vez de mandarla como texto literal
 - Proyecto de triage de tickets ahora robusto ante fallos de la API externa, no solo en el camino feliz
+## Sesión 25 — 4 de octubre
+- Primer ejercicio de Fase 4 (documentación para cliente): simulé entregar el proyecto de triage a un cliente ficticio (academia online)
+- Adapté el caso de uso genérico de "tickets de soporte" a mensajes de alumnos (acceso, facturación, bug, otros)
+- Escribí un README.md orientado a cliente no técnico: qué hace el sistema, cómo funciona, qué necesita el cliente para integrarlo, qué pasa si algo falla
+- Practiqué traducir conceptos técnicos (nodo, endpoint, webhook) a lenguaje humano, siendo honesto sobre las limitaciones actuales (revisión manual de fallos, sin reprocesamiento automático)
