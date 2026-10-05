@@ -143,3 +143,11 @@
 - Adapté el caso de uso genérico de "tickets de soporte" a mensajes de alumnos (acceso, facturación, bug, otros)
 - Escribí un README.md orientado a cliente no técnico: qué hace el sistema, cómo funciona, qué necesita el cliente para integrarlo, qué pasa si algo falla
 - Practiqué traducir conceptos técnicos (nodo, endpoint, webhook) a lenguaje humano, siendo honesto sobre las limitaciones actuales (revisión manual de fallos, sin reprocesamiento automático)
+## Sesión 26 — 5 de octubre
+- Continué la Fase 4 enfocándome en cómo presentar el automatizador de tickets desde la perspectiva del cliente y no desde la parte técnica
+- Amplié el README del proyecto con una sección sobre el problema que resuelve y el valor que aporta al equipo de soporte
+- Añadí un ejemplo hipotético para entender cómo calcular el tiempo que podría ahorrar la automatización en tareas de clasificación manual
+- Definí el perfil de cliente al que está dirigido el sistema: empresas que reciben muchos mensajes de soporte y realizan su clasificación manualmente
+- Documenté las limitaciones actuales del sistema para diferenciar claramente entre las funcionalidades implementadas y las que todavía requieren desarrollo
+- Practiqué responder a objeciones básicas de un posible cliente, como por qué utilizar el sistema si ya dispone de empleados para revisar los mensajes y qué ocurre si la IA clasifica incorrectamente un ticket
+- Reforcé la transición de un proyecto técnico a una solución que pueda explicarse y ofrecerse a un cliente real, sin exagerar sus capacidades actuales
