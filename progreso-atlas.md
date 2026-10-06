@@ -151,3 +151,9 @@
 - Documenté las limitaciones actuales del sistema para diferenciar claramente entre las funcionalidades implementadas y las que todavía requieren desarrollo
 - Practiqué responder a objeciones básicas de un posible cliente, como por qué utilizar el sistema si ya dispone de empleados para revisar los mensajes y qué ocurre si la IA clasifica incorrectamente un ticket
 - Reforcé la transición de un proyecto técnico a una solución que pueda explicarse y ofrecerse a un cliente real, sin exagerar sus capacidades actuales
+## Sesión 27 — 6 de octubre
+- Añadí sección de Preguntas Frecuentes al README, pensada para objeciones reales de un cliente
+- Pulí la respuesta sobre "por qué usarlo si ya hay personal": reenfoqué el mensaje de sustituir a apoyar al equipo
+- Pulí la respuesta sobre errores de clasificación de la IA: el valor está en confirmar rápido, no en eliminar la revisión humana
+- Investigué la política de retención de datos de la API de pago de Gemini (no entrena con los datos, retención de ~55 días solo para control de abuso) y escribí una respuesta honesta y verificable al respecto
+- Practiqué varias rondas de reescritura para eliminar frases vagas o no sostenibles por el sistema actual (evitar prometer de más)
