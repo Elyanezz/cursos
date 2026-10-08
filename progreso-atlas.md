@@ -157,3 +157,9 @@
 - Pulí la respuesta sobre errores de clasificación de la IA: el valor está en confirmar rápido, no en eliminar la revisión humana
 - Investigué la política de retención de datos de la API de pago de Gemini (no entrena con los datos, retención de ~55 días solo para control de abuso) y escribí una respuesta honesta y verificable al respecto
 - Practiqué varias rondas de reescritura para eliminar frases vagas o no sostenibles por el sistema actual (evitar prometer de más)
+## Sesión 28 — 8 de octubre
+- Amplié el README del sistema de triage de tickets para explicar mejor las tecnologías utilizadas y el funcionamiento técnico del flujo.
+- Documenté el papel de FastAPI, Gemini y n8n dentro del sistema, diferenciando la recepción y clasificación de los mensajes de la automatización de su gestión.
+- Mejoré la presentación técnica del proyecto para que un posible cliente pueda comprender mejor cómo funciona la solución y qué aporta a su equipo de soporte.
+- Revisé cómo describir las funcionalidades actuales sin prometer capacidades que todavía no están implementadas o verificadas.
+- Mantuve el enfoque comercial del README, priorizando la transparencia sobre las limitaciones del sistema y su posible aplicación en pequeñas y medianas empresas.
