@@ -163,3 +163,7 @@
 - Mejoré la presentación técnica del proyecto para que un posible cliente pueda comprender mejor cómo funciona la solución y qué aporta a su equipo de soporte.
 - Revisé cómo describir las funcionalidades actuales sin prometer capacidades que todavía no están implementadas o verificadas.
 - Mantuve el enfoque comercial del README, priorizando la transparencia sobre las limitaciones del sistema y su posible aplicación en pequeñas y medianas empresas.
+## Sesión 29 — 9 de octubre
+- Reconstruí el contenedor de n8n en Docker con un volumen persistente (-v n8n_data:/home/node/.n8n), para que los workflows no se pierdan si Docker se reinicia
+- Aprendí el concepto de try/except en Python: envolver código que puede fallar y manejar el error sin que el programa se caiga
+- Añadí try/except al endpoint /tickets alrededor de la llamada a Gemini, devolviendo un error controlado en vez de un fallo feo del servidor
