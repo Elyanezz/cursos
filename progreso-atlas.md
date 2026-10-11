@@ -167,3 +167,7 @@
 - Reconstruí el contenedor de n8n en Docker con un volumen persistente (-v n8n_data:/home/node/.n8n), para que los workflows no se pierdan si Docker se reinicia
 - Aprendí el concepto de try/except en Python: envolver código que puede fallar y manejar el error sin que el programa se caiga
 - Añadí try/except al endpoint /tickets alrededor de la llamada a Gemini, devolviendo un error controlado en vez de un fallo feo del servidor
+## Sesión 30 — 11 de octubre
+- Retomé Python puro, reforzando conceptos fuera del proyecto de tickets
+- Aprendí y practiqué list comprehensions: transformar listas (.upper()), filtrar con if, y extraer valores de una lista de diccionarios (ticket["campo"])
+- Separé esta práctica en python-basico/list_comprehensions.py, sin mezclar con el código real de ia-prompting
