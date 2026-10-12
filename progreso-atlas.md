@@ -171,3 +171,8 @@
 - Retomé Python puro, reforzando conceptos fuera del proyecto de tickets
 - Aprendí y practiqué list comprehensions: transformar listas (.upper()), filtrar con if, y extraer valores de una lista de diccionarios (ticket["campo"])
 - Separé esta práctica en python-basico/list_comprehensions.py, sin mezclar con el código real de ia-prompting
+## Sesión 31 — 12 de octubre
+- Aprendí funciones con parámetros por defecto en Python (sintaxis param=valor)
+- Reforcé la regla de que los parámetros con valor por defecto van siempre después de los que no lo tienen
+- Practiqué con clasificar_urgencia(texto, umbral="media"), probándola con y sin sobreescribir el valor por defecto
+- Pendiente para la próxima sesión de Python puro: *args/**kwargs
