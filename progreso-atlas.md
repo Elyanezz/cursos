@@ -176,3 +176,7 @@
 - Reforcé la regla de que los parámetros con valor por defecto van siempre después de los que no lo tienen
 - Practiqué con clasificar_urgencia(texto, umbral="media"), probándola con y sin sobreescribir el valor por defecto
 - Pendiente para la próxima sesión de Python puro: *args/**kwargs
+## Sesión 32 — 13 de octubre
+- Aprendí *args (argumentos posicionales variables) con contar_urgentes(*urgencias)
+- Aprendí **kwargs (argumentos con nombre variables) con crear_ticket(**campos), recorriendo con .items()
+- Cerré el repaso de Python puro: try/except, list comprehensions, parámetros por defecto, *args/**kwargs
