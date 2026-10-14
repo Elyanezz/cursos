@@ -180,3 +180,10 @@
 - Aprendí *args (argumentos posicionales variables) con contar_urgentes(*urgencias)
 - Aprendí **kwargs (argumentos con nombre variables) con crear_ticket(**campos), recorriendo con .items()
 - Cerré el repaso de Python puro: try/except, list comprehensions, parámetros por defecto, *args/**kwargs
+## Sesión 33 — 14 de octubre
+- Creé consultar_historial.py para hacer consultas sobre tickets_historial.jsonl usando Python puro, sin SQL
+- Aprendí a leer un archivo línea por línea y convertir cada línea de JSON a diccionario con json.loads()
+- Depuré un UnicodeDecodeError causado por líneas viejas corruptas del histórico (de antes de arreglar el encoding de curl) — las borré directamente
+- Usé list comprehensions para filtrar tickets urgentes
+- Reescribí un conteo por categoría que tenía repetido a mano (una línea por categoría) usando un diccionario acumulador, mucho más escalable
+- Reflexioné sobre el límite de archivos planos frente a SQL con volumen de datos, aunque todavía no lo siento como una necesidad real con el histórico actual
