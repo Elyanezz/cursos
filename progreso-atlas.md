@@ -187,3 +187,9 @@
 - Usé list comprehensions para filtrar tickets urgentes
 - Reescribí un conteo por categoría que tenía repetido a mano (una línea por categoría) usando un diccionario acumulador, mucho más escalable
 - Reflexioné sobre el límite de archivos planos frente a SQL con volumen de datos, aunque todavía no lo siento como una necesidad real con el histórico actual
+## Sesión 34 — 15 de octubre
+- Aprendí los conceptos básicos del *pitch comercial* y su utilidad para presentar los servicios de Atlas Academy a posibles clientes
+- Comprendí la importancia de identificar el problema del cliente antes de proponer una solución
+- Aprendí a diferenciar las características de un servicio de sus beneficios para el cliente, centrándome en el valor que aporta
+- Reflexioné sobre cómo presentar las automatizaciones con IA de Atlas Academy destacando resultados como ahorrar tiempo, reducir tareas repetitivas y mejorar procesos
+- Pendiente para próximas sesiones: aprender a estructurar y practicar un pitch comercial para un posible cliente real
