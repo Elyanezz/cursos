@@ -193,3 +193,9 @@
 - Aprendí a diferenciar las características de un servicio de sus beneficios para el cliente, centrándome en el valor que aporta
 - Reflexioné sobre cómo presentar las automatizaciones con IA de Atlas Academy destacando resultados como ahorrar tiempo, reducir tareas repetitivas y mejorar procesos
 - Pendiente para próximas sesiones: aprender a estructurar y practicar un pitch comercial para un posible cliente real
+## Sesión 35 — 16 de octubre
+- Aprendí qué es SQL y en qué se diferencia de hacer consultas con Python puro (lenguaje especializado para bases de datos, más eficiente con volumen)
+- Primer ejercicio de "pitch" de cliente (Fase 4): mensaje corto para contactar ofreciendo el sistema
+- Corregido un primer borrador que sonaba invasivo ("te hice un sistema para tu empresa") por un gancho centrado en el problema del cliente
+- Detecté y corregí una cifra de ahorro de tiempo inventada sin datos reales, reemplazándola por una fórmula abierta (X mensajes/mes) en vez de prometer un número no verificable
+- Guardé el mensaje final en PITCH.md dentro de ia-prompting
