@@ -199,3 +199,6 @@
 - Corregido un primer borrador que sonaba invasivo ("te hice un sistema para tu empresa") por un gancho centrado en el problema del cliente
 - Detecté y corregí una cifra de ahorro de tiempo inventada sin datos reales, reemplazándola por una fórmula abierta (X mensajes/mes) en vez de prometer un número no verificable
 - Guardé el mensaje final en PITCH.md dentro de ia-prompting
+## Sesión 36 — 19 de octubre
+- Día de decidir hacia donde dirigir la trayectoria
+- Decidido seguir reforzando conocimientos técnicos antes de dar el salto a vender; retomamos con SQL en la próxima sesión larga
