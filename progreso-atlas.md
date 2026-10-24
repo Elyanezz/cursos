@@ -202,3 +202,12 @@
 ## Sesión 36 — 19 de octubre
 - Día de decidir hacia donde dirigir la trayectoria
 - Decidido seguir reforzando conocimientos técnicos antes de dar el salto a vender; retomamos con SQL en la próxima sesión larga
+## Sesión 37 — 24 de octubre
+- Primeros pasos con SQLite desde Python: conexión, cursor y `CREATE TABLE IF NOT EXISTS` para poder ejecutar el script varias veces sin que falle
+- INSERT con placeholders `?` y valores en tupla (evita la inyección SQL) y `commit()` para guardar los cambios
+- SELECT con `fetchall()` y recorrido de las filas por posición de tupla
+- WHERE con `=` y combinando condiciones con `AND`; comprobé que filtra bien con 6 tickets de prueba
+- Insertar varios registros con un `for` y un único `commit()` al final
+- Errores corregidos: el cursor solo guarda el resultado de la última `execute`, `fetchall()` no lleva argumentos y una tupla de un solo valor necesita coma
+- Primer commit del proyecto de SQL, con `.gitignore` para no subir `tickets.db`
+- Siguiente: COUNT y GROUP BY, y conectar la base de datos al endpoint `/tickets`
