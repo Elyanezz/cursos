@@ -211,3 +211,9 @@
 - Errores corregidos: el cursor solo guarda el resultado de la última `execute`, `fetchall()` no lleva argumentos y una tupla de un solo valor necesita coma
 - Primer commit del proyecto de SQL, con `.gitignore` para no subir `tickets.db`
 - Siguiente: COUNT y GROUP BY, y conectar la base de datos al endpoint `/tickets`
+## Sesión 38 — 26 de octubre
+- COUNT(*) para contar filas en la base de datos, con `fetchone()[0]` para sacar el número directamente
+- COUNT combinado con WHERE y AND (tickets de urgencia alta y categoría bug)
+- GROUP BY para contar por categoría y por urgencia en una sola consulta, recorriendo las filas con `fetchall()` y un `for`
+- Predicciones correctas en GROUP BY; en COUNT me dejé fuera el ticket original al contar, así que tengo que revisar qué datos hay de verdad en la tabla antes de predecir
+- Siguiente: conectar la base de datos al endpoint `/tickets`
